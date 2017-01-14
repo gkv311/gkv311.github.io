@@ -1,0 +1,8 @@
+*.yml          eol=lf
+*.htm          eol=lf
+*.html         eol=lf
+*.js           eol=lf
+*.css          eol=lf
+*.txt          eol=crlf
+.gitignore     eol=lf
+.gitattributes eol=lf

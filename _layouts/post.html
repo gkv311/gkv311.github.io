@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<header class="content-header">
+  <h1><a id="menu-toggle" href="#" class="btn btn-success"><i class="fa fa-reorder"></i></a>{{ page.title }}
+{% if page.publish_date And page.publish_date != "" And page.publish_date != nil %}
+  <div style='font-size: 0.4em; font-style: italic; text-align: right;'>Published on {{ page.publish_date }}</div>
+{% endif %}
+  </h1>
+</header>
+<div class="page-content inset">
+
+{{ content }}
+
+</div> <!-- page-content-inset -->

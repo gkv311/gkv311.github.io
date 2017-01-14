@@ -1,0 +1,30 @@
+---
+layout: post
+title: sView
+categories: en
+permalink: /en/
+---
+
+<div style="float: right; margin-left: 50px; margin-right: 50px; margin-bottom: 80px">
+  <a href='/en/sview/info'><img src="/images/sview_144.png" alt="sView Logo" /></a>
+</div>
+
+<h2 class='description'>
+An easy to use, cross-platform solution to view 3D stereoscopic videos and images.
+</h2>
+
+<br/>
+
+<div align='center'><a class='btn btn-success btn-lg' href='/en/download'>Download now!</a> <a class='btn btn-success btn-lg' href='/en/sview/info'>About sView...</a></div>
+
+<br/>
+
+<h2 class='indent'><a href='/en/news'>News</a></h2>
+{% for post in site.posts %}
+  {% if post.categories contains 'en' %}
+  {% if post.tags       contains 'frontpage' %}
+  <h3 class='indent'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <summary>{{ post.excerpt }}</summary>
+  {% endif %}
+  {% endif %}
+{% endfor %}

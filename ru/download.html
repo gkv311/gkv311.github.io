@@ -1,0 +1,141 @@
+---
+layout: post
+title: Загрузить sView
+categories: ru
+permalink: /ru/download/
+---
+
+<script>
+function switchTo(theId) {
+  if(theId == 'downloadLin') {
+    document.getElementById('downloadWin').style.display = 'none';
+    document.getElementById('downloadLin').style.display = 'block';
+    document.getElementById('downloadMac').style.display = 'none';
+    document.getElementById('downloadApk').style.display = 'none';
+  } else if(theId == 'downloadMac') {
+    document.getElementById('downloadWin').style.display = 'none';
+    document.getElementById('downloadLin').style.display = 'none';
+    document.getElementById('downloadMac').style.display = 'block';
+    document.getElementById('downloadApk').style.display = 'none';
+  } else if(theId == 'downloadApk') {
+    document.getElementById('downloadWin').style.display = 'none';
+    document.getElementById('downloadLin').style.display = 'none';
+    document.getElementById('downloadMac').style.display = 'none';
+    document.getElementById('downloadApk').style.display = 'block';
+  } else {
+    document.getElementById('downloadWin').style.display = 'block';
+    document.getElementById('downloadLin').style.display = 'none';
+    document.getElementById('downloadMac').style.display = 'none';
+    document.getElementById('downloadApk').style.display = 'none';
+  }
+}
+
+function switchShowHide(theId) {
+  var anElem = document.getElementById(theId);
+  anElem.style.display = (anElem.style.display == 'none') ? 'block' : 'none';
+}
+</script>
+
+<style>
+table {
+  border-collapse: separate;
+}
+
+hr {
+  margin: 0px;
+  padding: 0px;
+  border: medium none;
+  height: 1px;
+  background: #7A7A7A none repeat scroll 0% 0%;
+}
+</style>
+
+<div id='download'>
+
+<table cellpadding='1' cellspacing='1' width='100%'>
+  <tr>
+  <td></td>
+  <td width='80p' align='center'><a title="Windows"  href="javascript:void(0);" onclick="switchTo('downloadWin');"><div><img src="/files/logos/logo_win.png" /><br/>Windows</div></a></td>
+  <td width='80p' align='center'><a title="Linux"    href="javascript:void(0);" onclick="switchTo('downloadLin');"><div><img src="/files/logos/logo_lin.png" /><br/>Linux</div></a></td>
+  <td width='80p' align='center'><a title="Mac OS X" href="javascript:void(0);" onclick="switchTo('downloadMac');"><div><img src="/files/logos/logo_mac.png" /><br/>Mac OS X</div></a></td>
+  <td width='80p' align='center'><a title="Android"  href="javascript:void(0);" onclick="switchTo('downloadApk');"><div><img src="/files/logos/logo_android.png" /><br/>Android</div></a></td>
+  </tr>
+</table>
+
+<div id="downloadWin" style="display: none;">
+  <div class="btn-download-wrapper">
+    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/win/{{ site.sview_win_exe }}'>Загрузить<br/><small>{{ site.sview_win_exe }}</small></a>
+    <p class='noindent'>~20 MiB, x86 + x86_64, {{ site.sview_build_date_win }}<br/>для <b>Windows</b> Vista / 7 / 8 / 10</p>
+  </div>
+</div>
+
+<div id="downloadLin" style="display: none;">
+
+  <div class="btn-download-wrapper">
+    <a class='btn btn-success btn-lg' href='https://launchpad.net/~sview/+archive/stable'><img src="/files/logos/logo_launchpad.png" />Ubuntu<br/><small>PPA-репозиторий</small></a>
+    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/src/{{ site.sview_src_tgz }}'>Sources<br/><small>{{ site.sview_src_tgz }}</small></a>
+  </div>
+
+  <h3>Для Linux дистрибутивов, основанных на Debian</h3>
+  <p>Официальный репозиторий sView для Ubuntu расположен на <a href='https://launchpad.net/~sview/+archive/stable'>Launchpad</a>.
+  После добавления PPA в систему, установить sView можно следующей командой в консоли:</p>
+  <p><code>sudo apt-get install sview</code></p>
+  <br/>
+  <p>Для запуска sView из командной строки воспользуйтесь одним из следующих вариантов:</p>
+  <p><code>sView --in=image</code></p>
+  <p><code>sView --in=video</code></p>
+  <p><code>sView media_file_name</code></p>
+
+  <h3>Для прочих систем:</h3>
+  <p>Sources archive: <a href='{{ site.sview_download }}/src/{{ site.sview_src_tgz }}'>Загрузить файл</a></p>
+  <p>GIT repository on github: <a href='https://github.com/gkv311/sview'>github.com/gkv311/sview</a></p>
+
+</div>
+
+<div id="downloadMac" style="display: none;">
+
+  <div class="btn-download-wrapper">
+    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/mac/{{ site.sview_mac_dmg }}'>Загрузить<br/><small>{{ site.sview_mac_dmg }}</small></a>
+    <p class='noindent'>~11 MiB, x86_64, {{ site.sview_build_date_mac }}<br/>для <b>OS X</b> 10.6+ (Snow Leopard и новее)</p>
+  </div>
+
+  <h3>Дополнительная информация по установке на OS X</h3>
+  <p>Бинарные файлы sView поставляются без цифровой подписи.
+  Отсутствие цифровой подписи несколько затрудняет установку программы на Mountain Lion в следствие высокого уровня безопасности, установленного в системе по-умолчанию (блокирующего запуск неподписанных приложений) и не интуитивного интерфейса для добавления исключений.
+  Обратите внимание, что для запуска sView <b><i>необязательно</i></b> менять настройки безопасности системы! Вы можете просто добавить приложение в исключения:</p>
+  <ul class='indent'>
+  <li>Установите sView как и любое другое приложение (перетащите "sView.app" в "/Applications").</li>
+  <li>Перейдите в каталог "/Application" используя файловый менеджер Finder.</li>
+  <li>Выберете пункт "Open" в контекстном меню файлового менеджера для файла "sView.app" (обратите внимание, что контекстное меню не доступно в панели запуска приложений Launchpad!).</li>
+  <li>Кликните "Open" в появившемся окне для игнорирования предупреждения для неподписанного приложения (обратите внимание, что точно такое же окошко появляется и в случае запуска обычным способом без контекстного меню, но кнопки "Open" в этом случае не будет!).</li>
+  </ul>
+  <p>Эту процедуру необходимо выполнить только <b><i>один раз</i></b> сразу после установки.
+  После этого вы можете использовать sView без каких либо ограничений!</p>
+
+</div>
+
+<div id="downloadApk" style="display: none;">
+  <div class="btn-download-wrapper">
+    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/apk/{{ site.sview_apk_apk32 }}'>Загрузить<br/><small>{{ site.sview_apk_apk32 }}</small></a>
+    <a class='btn btn-success btn-lg' href='https://play.google.com/store/apps/details?id=com.sview'><img src="/files/logos/logo_google_play.png" />Google Play<br/><small>страница магазина</small></a>
+    <p class='noindent'>~10 MiB, ARMv7, {{ site.sview_build_date_apk }}<br/>для <b>Android</b> 4.0.4+ (Ice Cream Sandwich и новее)</p>
+  </div>
+</div>
+
+</div>
+
+<script>
+var aUserAgent = navigator.userAgent.toLowerCase();
+var isAndroid = aUserAgent.indexOf("android") > -1;
+
+if(navigator.appVersion.indexOf("Mac") != -1) {
+  document.getElementById('downloadMac').style.display = 'block';
+} else if(isAndroid) {
+  document.getElementById('downloadApk').style.display = 'block';
+} else if(navigator.appVersion.indexOf("X11")   != -1
+       || navigator.appVersion.indexOf("Linux") != -1) {
+  document.getElementById('downloadLin').style.display = 'block';
+} else {
+  document.getElementById('downloadWin').style.display = 'block';
+}
+</script>

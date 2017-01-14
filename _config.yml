@@ -1,0 +1,50 @@
+name: sView
+description: The home page of sView project.
+author: Kirill Gavrilov
+author_email: kirill@sview.ru
+
+# The directory for category index pages.
+# Change it to something else if for example you want links like /categories/category1 instead of /category1
+category_dir: /
+
+# Uncomment if you are planning to run the blog in a subdirectory
+# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
+# Example, you must use http://localhost:4000/path/to/blog
+#baseurl: /path/to/blog 
+
+# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
+url: http://www.sview.ru/
+
+#### Under the Hood Stuff #####
+
+# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
+# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
+# If you don't have it install it via gem install rdiscount
+#markdown: rdiscount
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+#permalink: pretty
+permalink: /:categories/:title/
+
+# How many articles do you wish to appear on the front page:
+paginate: 3
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, repository, gallery, deploy.sh]
+
+#excerpt_separator: <!--more-->
+excerpt_separator: <!--break-->
+
+sview_download:  "http://download.sview.ru"
+sview_version_win:    "17.01"
+sview_version_mac:    "17.01"
+sview_version_apk:    "16.06"
+sview_build_date_win: "2017-01-13"
+sview_build_date_mac: "2017-01-13"
+sview_build_date_apk: "2016-07-02"
+sview_win_exe:        "sViewSetup_v.17.01_13.exe"
+sview_win_ovr_exe:    "sViewSetup_v.15.11alpha15_OVR.exe"
+sview_mac_dmg:        "sViewSetup_v.17.01_13.dmg"
+sview_apk_apk32:      "sViewSetup_v.16.06_01_armv7.apk"
+sview_src_tgz:        "sview-15.11-1.tar.gz"
+#sview_rpm_srpm:       "sview-12.05-1.src.rpm"

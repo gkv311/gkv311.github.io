@@ -1,0 +1,329 @@
+---
+layout: post
+title: Stereo-Drivers for Games
+publish_date: 2011-06-15
+categories: en help
+permalink: /en/help/drivers/
+---
+
+<style>
+table {
+  border-collapse: separate;
+}
+td {
+  padding: 5px;
+}
+</style>
+
+<p></p>
+<h2 class='indent'>Comparison table</h2>
+
+<table cellpadding='1' cellspacing='1' width='80%'><tbody>
+<tr>
+   <td><p>  </p></td>
+
+   <td bgcolor="#d6d6d6" align="center"><b>NVIDIA, WinXP</b></td>
+   <td bgcolor="#d6d6d6" align="center"><b>NVIDIA 3D Vision</b></td>
+   <td bgcolor="#d6d6d6" align="center"><b>IZ3D</b></td>
+   <td bgcolor="#d6d6d6" align="center"><b>OPEN STEREO</b></td>
+   <td bgcolor="#d6d6d6" align="center"><b>eDimensional</b></td>
+   <td bgcolor="#d6d6d6" align="center"><b>TriDef</b></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Development state:</b></i></td>
+
+    <td align="center"><span style="color: red;">stopped</span></td>
+    <td align="center">regular<br>updates</td>
+    <td align="center"><span style="color: red;">stopped</span></td>
+    <td align="center"><span style="color: red;">stopped</span></td>
+    <td align="center"><span style="color: red;">stopped</span></td>
+    <td align="center">regular<br>updates</td>
+</tr>
+<tr>
+    <td colspan="7" height="24" bgcolor="#d6d6d6"><b>Supported OS's</b></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Windows XP x86:</b></i></td>
+
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Windows XP x86-64:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Windows Vista / 7 x86:</b></i></td>
+
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+</tr><tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Windows Vista x86-64:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Windows 7 x86-64:</b></i></td>
+
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>32-bit applications:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>64-bit applications:</b></i></td>
+
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span> (?)</td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td colspan="7" height="24" bgcolor="#d6d6d6"><b>Supported 3D API</b></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>DirectX 7:</b></i></td>
+
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>DirectX 8:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span>(<a href="javascript:void(0);" title="D3D8 -> D3D9 wrapper used">info</a>)</td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>DirectX 9c:</b></i></td>
+
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>DirectX 10:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span><br>(development in progress)</td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>OpenGL:</b></i></td>
+
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Supports windowed stereo:</b></i></td>
+
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Automatic 3D-application interception:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span><br>(?)</td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span><br>(?)</td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span><br>(<a href="javascript:void(0);" title="user should create links">info</a>)</td>
+</tr>
+<tr>
+    <td colspan="7" height="24" bgcolor="#d6d6d6"><b>Device list support</b></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Red-Cyan anaglyph:</b></i></td>
+
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Generic shuttered glasses:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: orange;">-/+</span><br>(AMD HD3D / Software emulation)</td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-/+</span><br>(partial)</td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: orange;">-/+</span><br>(AMD HD3D)</td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>NVIDIA 3DVision:</b></i></td>
+
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Zalman/LG displays:</b><br>(row-interlaced)</i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Sharp displays:</b></i></td>
+
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center">?</td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>eMagin Z800 3D Visor:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Vuzix VR920:</b></i></td>
+
+    <td align="center">?</td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Dual output:</b><br>(Planar, Dual Projectors)</i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Mirrored output:</b><br>(Hand-make mirror systems)</i></td>
+
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: green;">+</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+    <td align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>IZ3D displays:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span><br>(<a href="javascript:void(0);" title="only last release">info</a>)</td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: green;">+</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+    <td bgcolor="#e0e0e0" align="center"><span style="color: red;">-</span></td>
+</tr>
+<tr>
+    <td colspan="7" height="24" bgcolor="#d6d6d6"><b>Additional info</b></td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Official site:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.ru" title="nvidia.com" >nvidia.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.ru" title="nvidia.com" >nvidia.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.iz3d.com" title="iz3d.com" >iz3d.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://kinddragon.blogspot.com/" title="kinddragon.blogspot.com" >blogspot.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.edimensional.com" title="edimensional.com" >edimensional.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.tridef.com" title="tridef.com" >tridef.com</a></td>
+</tr>
+<tr>
+    <td bgcolor="#e7e7e7" align="right"><i><b>Last official release:</b></i></td>
+
+    <td align="center">91.31<br>(2006.06.29)</td>
+    <td align="center">-</td>
+    <td align="center">1.13RC<br>(2011.06.15)</td>
+    <td align="center">0.3b<br>(2007.04.26)</td>
+    <td align="center">?</td>
+    <td align="center">-</td>
+</tr>
+<tr>
+    <td bgcolor="#e0e0e0" align="right"><i><b>Download:</b></i></td>
+
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.com/object/3dstereo_drivers.html" >nvidia.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.com/Download/index.aspx?lang=en" >nvidia.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://dragon.bestavia.com/files/RealStereo03b.rar" >RealStereo03b.rar</a></td>
+    <td bgcolor="#e0e0e0" align="center"></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="http://www.tridef.com/download/latest.html">tridef.com</a></td>
+</tr>
+</tbody></table>
+
+<div align='justify'><img src='/files/spacer.gif' width='50' height='30' border='0' alt='' /> </div>
+
+<div align='right'><b>Trademarks</b>
+<i>The name NVIDIA and the NVIDIA logo are registered trademarks of NVIDIA Corporation.
+AMD, the AMD Arrow logo, and combinations thereof, are trademarks of Advanced Micro Devices, Inc.</i></div>

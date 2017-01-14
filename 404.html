@@ -1,0 +1,18 @@
+---
+layout: post
+title: 404 - Not Found
+---
+
+<p>Sorry, the page you tried to reach isn't here! Please try using other links on the site to find what you're looking for.
+If you're sure this page should work, please <a href="/en/about">contact me</a>.</p>
+
+<script type="text/javascript">
+// if URL does not contain language prefix - try redirection
+var aHost     = window.location.host;
+var aHRef     = window.location.href;
+var aHRefNoRu = aHRef.replace(new RegExp(aHost + '/ru', 'g'), aHost);
+var aHRefNoEn = aHRef.replace(new RegExp(aHost + '/en', 'g'), aHost);
+if(aHRef == aHRefNoRu && aHRef == aHRefNoEn) {
+  window.location.href = aHRef.replace(new RegExp(aHost, 'g'), aHost + '/en');
+}
+</script>

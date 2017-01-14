@@ -1,0 +1,3 @@
+Options None
+Options +FollowSymLinks
+DirectoryIndex updates.php

@@ -1,0 +1,30 @@
+---
+layout: post
+title: sView
+categories: ru
+permalink: /ru/
+---
+
+<div style="float: right; margin-left: 50px; margin-right: 50px; margin-bottom: 80px">
+  <a href='/ru/sview/info'><img src="/images/sview_144.png" alt="sView Logo" /></a>
+</div>
+
+<h2 class='description'>
+Простое в использовании, кроссплатформенное решение для просмотра 3D стереоскопических видео и изображений.
+</h2>
+
+<br/>
+
+<div align='center'><a class='btn btn-success btn-lg' href='/ru/download'>Загрузить сейчас!</a> <a class='btn btn-success btn-lg' href='/ru/sview/info'>Подробнее о sView...</a></div>
+
+<br/>
+
+<h2 class='indent'><a href='/ru/news'>Новости</a></h2>
+{% for post in site.posts %}
+  {% if post.categories contains 'ru' %}
+  {% if post.tags       contains 'frontpage' %}
+  <h3 class='indent'><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <summary>{{ post.excerpt }}</summary>
+  {% endif %}
+  {% endif %}
+{% endfor %}

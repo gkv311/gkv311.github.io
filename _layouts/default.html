@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="{{site.description}}"/>
+  <meta name="author"      content="{{site.author}}"/>
+  <meta name="viewport"    content="width=device-width,initial-scale=1.0">
+  <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+  <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet"    href="{{site.baseurl}}/css/font-awesome.min.css" />
+  <link rel="stylesheet"    href="{{site.baseurl}}/css/bootstrap.min.css" />
+  <link rel="stylesheet"    href="{{site.baseurl}}/css/simple-sidebar.css" />
+  <link rel="stylesheet"    href="{{site.baseurl}}/css/style.min.css" />
+  <script type="text/javascript" src="{{site.baseurl}}/js/jquery.min.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/js/stGallery.js"></script>
+</head>
+
+<body>
+
+<script>
+function switchLanguage(theLang) {
+  var aHost    = window.location.host;
+  var aNewHRef = window.location.href.replace(new RegExp(aHost + '/ru', 'g'), aHost); // remove current language references
+  aNewHRef     =             aNewHRef.replace(new RegExp(aHost + '/en', 'g'), aHost);
+  aNewHRef     =             aNewHRef.replace(new RegExp(aHost, 'g'), aHost + '/' + theLang); // setup new language
+  if(aNewHRef == window.location.href) { return; } // current language equal to target
+  window.location.href = aNewHRef;
+}
+</script>
+
+<div id="wrapper">
+
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+{% if page.categories contains 'ru' %}
+      <li class="sidebar-brand"><a href="/ru"><img src="/images/sview_72.png" alt="sView" /></a></li>
+      <li><a href="/ru/news">Новости</a></li>
+      <li><a href="/ru/sview/info">О проекте</a>
+	<ul>
+	  <li><a href="/ru/sview/usertips">User Tips</a></li>
+	  <li><a href="/ru/sview/faq">FAQ</a></li>
+	  <li><a href="/ru/sview/history">История версий</a></li>
+	</ul>
+      </li>
+      <li><a href="/ru/download">Загрузить</a></li>
+      <li><a href="/ru/help/devices">3D Стерео</a>
+	<ul>
+	  <li><a href="/ru/help/devices/anaglyph">Анаглиф</a></li>
+	  <li><a href="/ru/help/devices/polarized">Поляризация</a></li>
+	  <li><a href="/ru/help/devices/mirror">Зеркальное сведение</a></li>
+	  <li><a href="/ru/help/devices/pageflip">Затворные очки</a></li>
+	  <li><a href="/ru/help/input">Стереоформаты</a></li>
+	  <li><a href="/ru/help/drivers">Стереодрайверы</a></li>
+	</ul>
+      </li>
+      <li><a href="#">Дополнительно</a>
+	<ul>
+	  <li><a href="/ru/contribute">Поддержать проект</a></li>
+	  <li><a href="https://github.com/gkv311/sview/issues">Bug Reports</a></li>
+	  <li><a href="/ru/about">Контакты</a></li>
+	</ul>
+      </li>
+{% else %}
+      <li class="sidebar-brand"><a href="/en"><img src="/images/sview_72.png" alt="sView" /></a></li>
+      <li><a href="/en/news">News</a></li>
+      <li><a href="/en/sview/info">About</a>
+	<ul>
+	  <li><a href="/en/sview/usertips">User Manual</a></li>
+	  <li><a href="/en/sview/faq">FAQ</a></li>
+	  <li><a href="/en/sview/history">Version History</a></li>
+	</ul>
+      </li>
+      <li><a href="/en/download">Download</a></li>
+      <li><a href="/en/help/input">3D Stereo</a>
+	<ul>
+	  <li><a href="/en/help/input">Stereo Formats</a></li>
+	  <li><a href="/en/help/drivers">Stereo Drivers</a></li>
+	</ul>
+      </li>
+      <li><a href="#">More</a>
+	<ul>
+	  <li><a href="/en/contribute">Help the project</a></li>
+	  <li><a href="https://github.com/gkv311/sview/issues">Bug Reports</a></li>
+	  <li><a href="/en/about">Contact</a></li>
+	</ul>
+      </li>
+{% endif %}
+    </ul>
+  </nav>
+
+  <div style="float: right; margin-left: 20px; margin-right: 20px">
+    <a href="javascript:void(0);" onclick="switchLanguage('ru');" style="color: #FFFFFF">Русский <img alt="Русский" src="/images/ru.png" style="width: 16px; height: 11px;" /></a>
+    <a href="javascript:void(0);" onclick="switchLanguage('en');" style="color: #FFFFFF">English <img alt="English" src="/images/en.png" style="width: 16px; height: 11px;" /></a>
+  </div>
+
+  <div id="page-content-wrapper">
+
+{{ content }}
+
+  </div> <!-- page-content-wrapper -->
+
+  <div align="right" style="padding-right: 20px;"><p>Copyright © <a href="/en/about">Kirill Gavrilov</a>, 2008-2017</p></div>
+</div> <!-- wrapper -->
+
+<!-- Custom JavaScript for the Menu Toggle -->
+<script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("active");
+  });
+</script>
+
+</body>
+</html>
