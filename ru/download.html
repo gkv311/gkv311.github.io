@@ -116,9 +116,11 @@ hr {
 
 <div id="downloadApk" style="display: none;">
   <div class="btn-download-wrapper">
-    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/apk/{{ site.sview_apk_apk32 }}'>Загрузить<br/><small>{{ site.sview_apk_apk32 }}</small></a>
     <a class='btn btn-success btn-lg' href='https://play.google.com/store/apps/details?id=com.sview'><img src="/files/logos/logo_google_play.png" />Google Play<br/><small>страница магазина</small></a>
-    <p class='noindent'>~10 MiB, ARMv7, {{ site.sview_build_date_apk }}<br/>для <b>Android</b> 4.0.4+ (Ice Cream Sandwich и новее)</p>
+    <br/>
+    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/apk/{{ site.sview_apk_apk32 }}'>Загрузить 32-бит<br/><small>{{ site.sview_apk_apk32 }}</small></a>
+    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/apk/{{ site.sview_apk_apk64 }}'>Загрузить 64-бит<br/><small>{{ site.sview_apk_apk64 }}</small></a>
+    <p class='noindent'>~12 MiB, armeabi-v7a/arm64-v8a, {{ site.sview_build_date_apk }}<br/>для <b>Android</b> 4.0.4+ (Ice Cream Sandwich и новее)</p>
   </div>
 </div>
 
