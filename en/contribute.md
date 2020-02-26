@@ -64,7 +64,8 @@ Help sView to be more popular:
 sView is free even for commercial use (as far as you respect the license!).
 I'm developing project in my spare time.
 
-However development is not always fun and there are many unavoidable expenses - like hosting the site without ads.
+However development is not always fun and there are many unavoidable expenses - like hosting the site without ads,
+purchaising hardware & software for testing and development purposes.
 
 
 If you like sView you may say thanks developer by donating.

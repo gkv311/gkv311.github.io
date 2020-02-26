@@ -6,8 +6,8 @@ permalink: /ru/about/
 ---
 
 Основатель проекта sView - *Кирилл Гаврилов*, программист родом из Кириши.
-На данный момент Кирилл сотрудник фирмы [Open CASCADE / ООО Датавижн НН](http://opencascade.com) (руководитель проектной группы),
-где принимает активное участие в разработке платформы [Open CASCADE Technology](http://dev.opencascade.org) (направляет развитие компонентов для [3D визуализации](https://dev.opencascade.org/index.php?q=home/projects/visualization)),
+На данный момент Кирилл сотрудник фирмы [Open Cascade / ООО Датавижн НН](https://opencascade.com) (архитектор приложений),
+где принимает активное участие в разработке платформы [Open CASCADE Technology](https://dev.opencascade.org) (направляет развитие компонентов для [3D визуализации](https://dev.opencascade.org/index.php?q=home/projects/visualization)),
 в разработке приложения [CAD Assistant](https://www.opencascade.com/content/cad-assistant) для просмотра и конвертации 3D моделей,
 а также в других проектов.
 

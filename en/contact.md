@@ -6,8 +6,8 @@ permalink: /en/about/
 ---
 
 *Kirill Gavrilov* is the Russian programmer who created sView project.
-He's a native of Kirishi, and is currently employed by [Open CASCADE / Datavison NN](http://opencascade.com), Nizhny Novgorod (as Software Development Manager).
-As employee of Open CASCADE, he participates in development of [Open CASCADE Technology](http://dev.opencascade.org) platform (resposible for [3D Visualization domain](https://dev.opencascade.org/index.php?q=home/projects/visualization)),
+He's a native of Kirishi, and is currently employed by [Open Cascade](https://opencascade.com), Nizhny Novgorod (as Software Architect).
+As employee of Open Cascade, he participates in development of [Open CASCADE Technology](https://dev.opencascade.org) platform (resposible for [3D Visualization domain](https://dev.opencascade.org/index.php?q=home/projects/visualization)),
 3D Viewer and convertor for 3D models [CAD Assistant](https://www.opencascade.com/content/cad-assistant),
 as well as in other projects.
 

@@ -53,7 +53,7 @@ Program requires hardware accelerated _**OpenGL 2.1+ video-card**_ (any non-anci
 
 Supported OS:
 
-* Windows Vista / 7 / 8.1 / 10 (32bit and 64bit)
+* Windows 7 / 8.1 / 10 (64bit)
 * Mac OS X 10.6.8 and newer (with 64bit Intel CPU)
 * Linux (pre-built binaries are available for Ubuntu on Launchpad, maintainers for other distributions are welcome!)
 
