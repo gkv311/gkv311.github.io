@@ -107,21 +107,21 @@ hr {
 
   <div class="btn-download-wrapper">
     <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/mac/{{ site.sview_mac_dmg }}'>Download<br/><small>{{ site.sview_mac_dmg }}</small></a>
-    <p class='noindent'>~11 MiB, x86_64, {{ site.sview_build_date_mac }}<br/>for <b>OS X</b> 10.6+ (Snow Leopard and newer)</p>
+    <p class='noindent'>~13 MiB, x86_64, {{ site.sview_build_date_mac }}<br/>for <b>macOS</b> 10.10+ (Yosemite and newer)</p>
   </div>
 
   <h3>Extra info for OS X users</h3>
   <p>sView has no digital signature and requires additional installation steps on OS X where unsigned applications are blocked by default.
-  Please notice that you <b><i>have not</i></b> lower security level system-wide to launch sView!
-  Instead you may add exception to concrete application:</p>
+  There is no need lowering security level system-wide to launch sView!
+  Instead, an exception for specific application could be added:</p>
   <ul class='indent'>
-  <li>Install sView as any application (drag "sView.app" to "/Applications").</li>
+  <li>Install sView (drag "sView.app" to "/Applications").</li>
   <li>Navigate to "/Application" in the Finder.</li>
-  <li>Open context menu for "sView.app" and choose "Open" (notice that you can not do this in Launchpad!).</li>
-  <li>Click "Open" in appeared dialog to ignore unsigned application warning (beware - if you launch application not from context menu then the same window will appear but without "Open" button!).</li>
+  <li>Open the context menu for "sView.app" holding Shift key and choose "Open".</li>
+  <li>Click "Open" in appeared dialog to ignore unsigned application warning (notice that this cannot be done in Launchpad, and without Shift key there will be no option to Open application!).</li>
   </ul>
   <p>You need to perform this operation just <b><i>once</i></b> after installation.
-  After this you may use sView without any restrictions!</p>
+  After this sView can be used without restrictions!</p>
 
 </div>
 

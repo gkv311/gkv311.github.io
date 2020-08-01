@@ -36,9 +36,33 @@ function switchShowHide(id) {
 <p>Please take into account that this page contains mostly changes reliable to end-user. If you are looking for complete history - please look onto <a href=https://github.com/gkv311/sview/commits/master>integrations in official git repository</a>.</p>
 
 <div><a title="sView1206" href="javascript:void(0);" onclick="switchShowHide('sView1206');">
-<h2 class='indent'>sView 19.08</h2></a></div>
+<h2 class='indent'>sView 20.08</h2></a></div>
 
     <div id="sView1206" style="display: block;">
+
+<h2>20.08 (2020-08-01)</h2>
+
+<p><code>+ </code>Added support for Equiangular Cubemaps (EAC).</p>
+<p><code>* </code>Fixed various issues / distortions on HTC Vive.</p>
+<p><code>* </code>Android, fixed accessibility of some controls (scrolling long menus in landscape mode, subtitles size and position).</p>
+<p><code>* </code>macOS, ported from VDA to VideoToolbox hardware accelerated decoding.</p>
+<p><code>* </code>macOS, minimal supported system is now macOS 10.10+ Yosemite (previous release sView 17.04 supported OS X 10.6+ Snow Leopard).</p>
+
+<h2>20.05 (2020-05-20)</h2>
+
+<p><code>+ </code>Added Spanish translation files.</p>
+<p><code>+ </code>Image Viewer - added trilinear texture filtering option generating mip-maps.</p>
+<p><code>+ </code>Image Viewer - support 1x6 cubemap layout.</p>
+<p><code>+ </code>Image Viewer - panorama is now automatically enabled for JPEG files with GPano:ProjectionType tag.</p>
+<p><code>+ </code>Image Viewer - panorama is now automatically enabled for JPEG files with 360Stereo/360Mono tags (game screenshots).</p>
+<p><code>+ </code>Image Viewer - support DDS-packed cubemaps.</p>
+<p><code>+ </code>Movie Player - image-based subtitles size can be now adjusted.</p>
+<p><code>* </code>Movie Player - workaround subtitles seeking issues for attached SRT files.</p>
+<p><code>* </code>Movie Player - fixed ASS subtitles formatting issue on files without closure tags.</p>
+<p><code>* </code>Movie Player - added handling of image-based subtitles encoded as stereoscopic pair (side-by-side).</p>
+<p><code>* </code>Image Viewer - fixed poor quality on saving JPEG (yuv420p) image into PNG (rgb).</p>
+<p><code>* </code>Image Viewer - fixed displaying WebP images with alpha channel (yuva pixel formats).</p>
+<p><code>* </code>fontconfig library is now used to retrieve paths to system fonts on Linux.</p>
 
 <h2>19.08 (2019-08-04)</h2>
 

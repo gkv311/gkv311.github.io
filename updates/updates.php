@@ -69,7 +69,7 @@ $appl_sView = 'sView';
 $appl_sView_2009 = 'sView 2009';
 
 // latest version
-$lastVersion = new StVersion(2017, 4, 4, 1);
+$lastVersion = new StVersion(2020, 8, 4, 1);
 ///echo $lastVersion->toString().'<br/>';
 
 // received values
