@@ -2,7 +2,7 @@
 layout: post
 title: 2016-07-02 Обновление sView
 categories: ru news
-permalink: /ru/news/2016-07-02
+permalink: /ru/news/2016-07-02/
 tags: frontpage
 ---
 

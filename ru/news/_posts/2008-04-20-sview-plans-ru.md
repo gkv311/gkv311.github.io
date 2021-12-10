@@ -2,7 +2,7 @@
 layout: post
 title: 2008-04-20
 categories: ru news
-permalink: /ru/news/2008-04-20
+permalink: /ru/news/2008-04-20/
 ---
 
 С прошлой недели для **sView** начался новый цикл разработки.

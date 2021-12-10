@@ -2,7 +2,7 @@
 layout: post
 title: 2013-10-05 sView теперь поддерживает HiDPI экраны
 categories: ru news
-permalink: /ru/news/2013-10-05
+permalink: /ru/news/2013-10-05/
 ---
 
 Опубликована новая версия sView 13.10.

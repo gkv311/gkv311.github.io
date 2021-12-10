@@ -2,7 +2,7 @@
 layout: post
 title: 2015-11-22 Memory usage optimizations in sView
 categories: en news
-permalink: /en/news/2015-11-22
+permalink: /en/news/2015-11-22/
 tags: frontpage
 ---
 

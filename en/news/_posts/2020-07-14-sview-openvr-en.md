@@ -2,7 +2,7 @@
 layout: post
 title: 2020-07-14 sView OpenVR fixes
 categories: en news
-permalink: /en/news/2020-07-14
+permalink: /en/news/2020-07-14/
 tags: frontpage
 ---
 

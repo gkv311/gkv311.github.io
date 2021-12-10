@@ -2,7 +2,7 @@
 layout: post
 title: 2008-02-01 sView now has home
 categories: en news
-permalink: /en/news/2008-02-01
+permalink: /en/news/2008-02-01/
 ---
 
 Welcome to **sview.ru** web site!

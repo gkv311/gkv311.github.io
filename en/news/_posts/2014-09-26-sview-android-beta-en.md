@@ -2,7 +2,7 @@
 layout: post
 title: 2014-09-26 sView for Android BETA
 categories: en news
-permalink: /en/news/2014-09-26
+permalink: /en/news/2014-09-26/
 ---
 
 sView is now available on Android (4.0.3+) platform!

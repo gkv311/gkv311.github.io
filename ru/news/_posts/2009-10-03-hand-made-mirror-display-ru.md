@@ -2,7 +2,7 @@
 layout: post
 title: 2009-10-03
 categories: ru news
-permalink: /ru/news/2009-10-03
+permalink: /ru/news/2009-10-03/
 ---
 
 Наконец-то мне удалось собрать стереомонитор своими руками по зеркальной схеме!

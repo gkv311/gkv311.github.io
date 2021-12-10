@@ -2,7 +2,7 @@
 layout: post
 title: 2010-08-22 sView теперь проигрывает видео
 categories: ru news
-permalink: /ru/news/2010-08-22
+permalink: /ru/news/2010-08-22/
 ---
 
 Рад объявить о выпуске новой версии sView!

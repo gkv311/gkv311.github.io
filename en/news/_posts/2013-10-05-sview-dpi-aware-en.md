@@ -2,7 +2,7 @@
 layout: post
 title: 2013-10-05 sView is now DPI-aware
 categories: en news
-permalink: /en/news/2013-10-05
+permalink: /en/news/2013-10-05/
 ---
 
 sView 13.10 has been released.

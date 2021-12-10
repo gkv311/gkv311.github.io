@@ -2,7 +2,7 @@
 layout: post
 title: 2009-05-24
 categories: en news
-permalink: /en/news/2009-05-24
+permalink: /en/news/2009-05-24/
 ---
 
 New version of sView is coming soon and *development snapshot* sViewSetup_v.9.5dev25a.exe is available for testing!

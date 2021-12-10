@@ -2,7 +2,7 @@
 layout: post
 title: 2015-11-22 Оптимизация расхода памяти в sView
 categories: ru news
-permalink: /ru/news/2015-11-22
+permalink: /ru/news/2015-11-22/
 tags: frontpage
 ---
 

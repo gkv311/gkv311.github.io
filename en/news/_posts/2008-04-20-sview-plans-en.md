@@ -2,7 +2,7 @@
 layout: post
 title: 2008-04-20
 categories: en news
-permalink: /en/news/2008-04-20
+permalink: /en/news/2008-04-20/
 ---
 
 Program **sView** is going to the new development cycle!

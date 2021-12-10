@@ -2,7 +2,7 @@
 layout: post
 title: 2016-07-02 sView update
 categories: en news
-permalink: /en/news/2016-07-02
+permalink: /en/news/2016-07-02/
 tags: frontpage
 ---
 

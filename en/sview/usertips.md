@@ -10,7 +10,7 @@ Being designed for 3D stereoscopic playback, it provides many features unusual t
 This short manual describes key features.
 If you have questions you might find answers in [sView FAQ](/en/sview/faq).
 
-##<a name="mouse">Mouse actions</a>
+## <a name="mouse">Mouse actions</a>
 Many actions can be performed with the mouse. Besides main menu and tool-bar icons, there are some more useful tricks:
 
 * File **Drag & Drop**. You can drag file from your file explorer and move it onto the opened sView window, and file will be opened immediately. Make sure you move image to Image Viewer and video file to Movie Player since them have own list of supported formats!
@@ -18,7 +18,7 @@ Many actions can be performed with the mouse. Besides main menu and tool-bar ico
 * **Panning**. Hold left mouse button, move image where you want, release the button.
 * **Fullscreen / Windowed**. Press middle button on your mouse. This action can be also performed with keyboard keys 'Enter' and 'F'.
 
-##<a name="short_keys">View short-keys</a>
+## <a name="short_keys">View short-keys</a>
 All hotkeys can be re-assigned within application settings.
 Following settings are defined individually for each file in playlist:
 
@@ -37,7 +37,7 @@ Following settings are defined individually for each file in playlist:
 * **Ctrl** + **[** - rotate image *counterclockwise* (smooth).
 * **Ctrl** + **]** - rotate image *clockwise* (smooth).
 
-##<a name="file_navigation">File navigation keys</a>
+## <a name="file_navigation">File navigation keys</a>
 sView does not function like media-library automatically filled in from entire filesystem.
 Instead, sView provides playlist implicitly filled in with active folder content - the folder containing opened file
 (or folder content within sub-folders when opening folder).
@@ -58,7 +58,7 @@ The following keys can be used for fast navigation (in addition to buttons on to
 * **L** - select next audio (Language) stream (or **H**).
 * **Ctrl** + **L** - show/hide playlist in Movie Player.
 
-##<a name="img_keys">Image adjustment keys</a>
+## <a name="img_keys">Image adjustment keys</a>
 Following settings will be applied to all files:
 
 * **Shift** + **G** - increase Gamma correction coefficient.
@@ -68,7 +68,7 @@ Following settings will be applied to all files:
 * **Shift** + **T** - increase Saturation (colorify).
 * **Ctrl** + **T** - decrease Saturation (grayscale).
 
-##Source stereo format short-keys
+## Source stereo format short-keys
 Source stereo format is applied to all opened files.
 However due to playback buffering within Movie Player the change will take effect only 16 frames later (e.g. no change in paused state).
 Most popular formats can be activated by hotkeys:
@@ -80,7 +80,7 @@ Most popular formats can be activated by hotkeys:
 
 [This article](/en/help/source_formats) contains description of stereoscopic formats.
 
-##<a name="sep_keys">Separation adjustment keys</a>
+## <a name="sep_keys">Separation adjustment keys</a>
 Some defects of stereoscopic pair can be corrected within sView:
 
 * **Numpad /** and __Numpad \*__ - change horizontal separation to adjust zero-parallax point.
@@ -88,7 +88,7 @@ Some defects of stereoscopic pair can be corrected within sView:
 * **Ctrl** + **;** - rotate *left* view *clockwise*, *right* view *counterclockwise*.
 * **Ctrl** + **'** - rotate *left* view *counterclockwise*, *right* view *clockwise*.
 
-##<a name="aspect_ratio">Aspect ratio</a>
+## <a name="aspect_ratio">Aspect ratio</a>
 Aspect ratio defines image proportions between width and height.
 There are to quantities associated to each other - Pixel Aspect Ratio (PAR) and Display Aspect Ratio (DAR).
 Display aspect ratio is more familiar to the users,
@@ -113,7 +113,7 @@ Most software encoding anamorphic videos stores incorrect information causing sV
 
 Display ratio can be overridden from menu in sView to workaround such issues.
 
-##<a name="fps">Playback smoothness</a>
+## <a name="fps">Playback smoothness</a>
 sView provides several advanced options affecting playback smoothness (fps) and power consumption:
 
 * **VSync** or Vertical Sync - general way to eliminate tearing artifacts and to limit upper bound of FPS to the maximal vertical refresh rate of used display.
@@ -130,7 +130,7 @@ sView also provides option to **keep Display turned on** during playback.
 By default, program blocks sleeping during Video playback - but not within Audio playback nor Video in paused state.
 You may disable this feature at all or turn on more aggressive behavior in settings.
 
-##<a name="advanced">3rd party libraries</a>
+## <a name="advanced">3rd party libraries</a>
 sView uses 3rd-party components. Most of them are dynamically linked and licensed under LGPL.
 
 _**OpenAL**_. sView uses OpenAL soft on most systems (except OS X where Apple provides own implementation)

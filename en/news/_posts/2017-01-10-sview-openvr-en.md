@@ -2,7 +2,7 @@
 layout: post
 title: 2017-01-10 sView OpenVR support
 categories: en news
-permalink: /en/news/2017-01-10
+permalink: /en/news/2017-01-10/
 tags: frontpage
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 2015-08-29 Обновлённый интерфейс и кубмапы в sView
 categories: ru news
-permalink: /ru/news/2015-08-29
+permalink: /ru/news/2015-08-29/
 tags: frontpage
 ---
 

@@ -26,6 +26,8 @@ url: http://www.sview.ru/
 #permalink: pretty
 permalink: /:categories/:title/
 
+plugins: [jekyll-paginate]
+
 # How many articles do you wish to appear on the front page:
 paginate: 3
 

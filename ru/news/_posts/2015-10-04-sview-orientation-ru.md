@@ -2,7 +2,7 @@
 layout: post
 title: 2015-10-04 Синхронизация ориентации Android устройств в sView
 categories: ru news
-permalink: /ru/news/2015-10-04
+permalink: /ru/news/2015-10-04/
 tags: frontpage
 ---
 

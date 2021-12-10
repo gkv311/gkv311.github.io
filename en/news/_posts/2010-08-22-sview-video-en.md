@@ -2,7 +2,7 @@
 layout: post
 title: 2010-08-22 sView now plays video
 categories: en news
-permalink: /en/news/2010-08-22
+permalink: /en/news/2010-08-22/
 ---
 
 I'm pleased to present a new version of sView!

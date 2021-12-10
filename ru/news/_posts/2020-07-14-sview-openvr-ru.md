@@ -2,7 +2,7 @@
 layout: post
 title: 2020-07-14 Исправления для OpenVR в sView
 categories: ru news
-permalink: /ru/news/2020-07-14
+permalink: /ru/news/2020-07-14/
 tags: frontpage
 ---
 

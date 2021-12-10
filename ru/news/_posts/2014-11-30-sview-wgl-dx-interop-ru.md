@@ -2,7 +2,7 @@
 layout: post
 title: 2014-11-30 Улучшенная поддержка NVIDIA 3D Vision в sView
 categories: ru news
-permalink: /ru/news/2014-11-30
+permalink: /ru/news/2014-11-30/
 ---
 
 Новый выпуск sView 14.11 для Windows улучшает поддержку NVIDIA 3D Vision. Direct3D вывод (для NVIDIA 3D Vision и AMD HD3D)

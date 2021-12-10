@@ -2,7 +2,7 @@
 layout: post
 title: 2009-05-24
 categories: ru news
-permalink: /ru/news/2009-05-24
+permalink: /ru/news/2009-05-24/
 ---
 
 Итак, медленно но верно идёт процесс разработки новой версии sView!

@@ -2,7 +2,7 @@
 layout: post
 title: 2015-08-29 Updated interface and cubemaps in sView
 categories: en news
-permalink: /en/news/2015-08-29
+permalink: /en/news/2015-08-29/
 tags: frontpage
 ---
 

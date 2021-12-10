@@ -2,7 +2,7 @@
 layout: post
 title: 2017-01-10 Поддержка OpenVR в sView
 categories: ru news
-permalink: /ru/news/2017-01-10
+permalink: /ru/news/2017-01-10/
 tags: frontpage
 ---
 

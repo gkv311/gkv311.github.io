@@ -2,7 +2,7 @@
 layout: post
 title: 2015-10-04 Tracked Android device orientation in sView
 categories: en news
-permalink: /en/news/2015-10-04
+permalink: /en/news/2015-10-04/
 tags: frontpage
 ---
 
