@@ -16,7 +16,7 @@ If you are confused by stereo format options, please refer to [this article](/en
 
 ## <a name="codecs">Which video codecs sView supports?</a>
 sView uses FFmpeg for audio/video decoding.
-Please refer to [FFmpeg documentation](http://ffmpeg.org/general.html) for complete information
+Please refer to [FFmpeg documentation](https://ffmpeg.org/general.html) for complete information
 (actual list of enabled decoders and formats also depends on building options).
 
 ## <a name="iptv">Does sView support IPTV?</a>

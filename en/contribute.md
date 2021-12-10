@@ -50,7 +50,7 @@ You may fix bugs observed during program usage or registered on [Bugtracker](htt
 
 ## Contribute to related projects
 sView relies on several strong projects, including [FFmpeg](www.ffmpeg.org) for video/audio decoding,
-[OpenAL soft](http://kcat.strangesoft.net/openal.html) for audio playback.
+[OpenAL soft](https://openal-soft.org/) for audio playback.
 Contributions to these projects improves sView as well!
 
 ## Advertise sView

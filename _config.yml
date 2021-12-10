@@ -13,7 +13,7 @@ category_dir: /
 #baseurl: /path/to/blog 
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://www.sview.ru/
+url: https://www.sview.ru/
 
 #### Under the Hood Stuff #####
 
@@ -37,14 +37,14 @@ exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffe
 #excerpt_separator: <!--more-->
 excerpt_separator: <!--break-->
 
-sview_download:  "http://download.sview.ru"
-sview_version_win:    "20.08"
+sview_download:  "https://download.sview.ru"
+sview_version_win:    "21.12"
 sview_version_mac:    "20.08"
 sview_version_apk:    "20.08"
-sview_build_date_win: "2020-08-01"
+sview_build_date_win: "2021-12-07"
 sview_build_date_mac: "2020-08-19"
 sview_build_date_apk: "2020-08-02"
-sview_win_exe:        "sViewSetup_v.20.08_1.exe"
+sview_win_exe:        "sViewSetup_v.21.12_7.exe"
 sview_win_ovr_exe:    "sViewSetup_v.15.11alpha15_OVR.exe"
 sview_mac_dmg:        "sViewSetup_v.20.08_19.dmg"
 sview_apk_apk32:      "sViewSetup_v.20.08_02-1_armeabi_v7a.apk"

@@ -34,7 +34,7 @@ sView определяет исходный формат используя сл
   - `StereoscopicHalfHeight` и `StereoscopicHalfWidth` определяют анаморфное видео
   - `StereoscopicHorizontalParallax` задаёт разделение между ракурсами в пикселях
 * MKV метаданные (*.mkv, *mkv3d).
-  [Спецификации формата Matroska](http://www.matroska.org/technical/specs/index.html) включают отдельные поля определяющие стереоформат (`StereoMode`).
+  [Спецификации формата Matroska](https://www.matroska.org/technical/specs/index.html) включают отдельные поля определяющие стереоформат (`StereoMode`).
   FFmpeg библиотека конвертирует эту информацию в форме метаданных потока в тег `STEREO_MODE`
   (со значениями `mono`, `right_left`, `left_right`, `bottom_top`, `top_bottom`, `row_interleaved_rl`, `row_interleaved_lr`, `block_lr`, `block_rl`, `anaglyph_cyan_red`, `anaglyph_green_magenta`).
   Механизм обраюотки метаданных в sView не привязан к формату *.mkv, а значит данный тег может быть использован и в других контейнерах.

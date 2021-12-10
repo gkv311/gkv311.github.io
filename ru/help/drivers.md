@@ -319,12 +319,12 @@ td {
 <tr>
     <td bgcolor="#e0e0e0" align="right"><i><b>Официальный сайт:</b></i></td>
 
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.ru" title="nvidia.ru" >nvidia.ru</a></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.ru" title="nvidia.ru" >nvidia.ru</a></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.iz3d.com" title="iz3d.com" >iz3d.com</a></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://kinddragon.blogspot.com" title="kinddragon.blogspot.com" >blogspot.com</a></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.edimensional.com" title="edimensional.com" >edimensional.com</a></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.tridef.com" title="tridef.com" >tridef.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.nvidia.ru" title="nvidia.ru" >nvidia.ru</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.nvidia.ru" title="nvidia.ru" >nvidia.ru</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.iz3d.com" title="iz3d.com" >iz3d.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://kinddragon.blogspot.com" title="kinddragon.blogspot.com" >blogspot.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.edimensional.com" title="edimensional.com" >edimensional.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.tridef.com" title="tridef.com" >tridef.com</a></td>
 </tr>
 <tr>
     <td bgcolor="#e7e7e7" align="right"><i><b>Последняя официальная версия:</b><br>(на момент написания статьи)</i></td>
@@ -339,12 +339,12 @@ td {
 <tr>
     <td bgcolor="#e0e0e0" align="right"><i><b>Download:</b></i></td>
 
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.com/object/3dstereo_drivers.html" >nvidia.ru</a></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.nvidia.ru/Download/index.aspx?lang=ru" >nvidia.ru</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.nvidia.com/object/3dstereo_drivers.html" >nvidia.ru</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.nvidia.ru/Download/index.aspx?lang=ru" >nvidia.ru</a></td>
     <td bgcolor="#e0e0e0" align="center"></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://kinddragon.blogspot.com/2007/04/blog-post_28.html" >RealStereo 0.3b</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://kinddragon.blogspot.com/2007/04/blog-post_28.html" >RealStereo 0.3b</a></td>
     <td bgcolor="#e0e0e0" align="center"></td>
-    <td bgcolor="#e0e0e0" align="center"><a href="http://www.tridef.com/download/latest.html">tridef.com</a></td>
+    <td bgcolor="#e0e0e0" align="center"><a href="https://www.tridef.com/download/latest.html">tridef.com</a></td>
 </tr>
 </tbody></table>
 
@@ -352,7 +352,7 @@ td {
 
 ## Дополнительные подробности
 
-<div align='center'><a href="http://www.nvidia.ru" title="NVIDIA 3D стереодрайвер для Win"><img src='/files/nvidia3d.png' width='488' height='128' border='0' alt='NVIDIA стереодрайвер' /></a></div>
+<div align='center'><a href="https://www.nvidia.ru" title="NVIDIA 3D стереодрайвер для Win"><img src='/files/nvidia3d.png' width='488' height='128' border='0' alt='NVIDIA стереодрайвер' /></a></div>
 Стереодрайвер NVIDIA можно и любить и ненавидеть одновременно.
 Это один из самых старых представителей, который оставался бескомпромиссным вариантом для стереолюбителя на протяжении многих лет.
 
@@ -374,14 +374,14 @@ td {
 Появился OSD (On-Screen-Display), который выводит некоторые сведения о работе драйвера на экран прямо во время игры.
 Некоторые настройки (конвергенции) были перенесены в разряд 'продвинутых' и по-умолчанию не доступны для настройки. Компания стала активно сотрудничать с разработчиками игр с целью поддержки ими стереовывода средствами стереодрайвера. В результате вышло уже несколько игр, полностью совместимых со стереотехнологией NVIDIA, но с неприятным сюрпризом для опытных игроков - невозможностью регулировать параметр конвергенции (авторы выбрали 'подходящее' значение за вас).</p>
 
-<div align='center'><a href="http://iz3d.com" title="iZ3D 3D стереодрайвер"><img src='/files/iz3ddriver.png' width='275' height='107' border='0' alt='iZ3D 3D стереодрайвер' /></a></div>
+<div align='center'><a href="https://iz3d.com" title="iZ3D 3D стереодрайвер"><img src='/files/iz3ddriver.png' width='275' height='107' border='0' alt='iZ3D 3D стереодрайвер' /></a></div>
 
 **Историческая заметка - разработчик стереодрайвера, к сожалению, объявил себя банкротом в 2012 году**.
 Выход "новичка" на рынок стереоустройств подарил не только весьма доступный по цене монитор, но и стереодрайвер собственной разработки.
 Основной упор драйвера - это поддержка современных игр со включенными спецэффектами.
 В последствии к поддержке IZ3D мониторов была добавлена поддержка и иных стереоустройств, на платной основе.
 
-<div align='center'><a href="http://kinddragon.blogspot.com/" title="Stereo Driver OPEN STEREO"><b>Stereo Driver OPEN STEREO</b></a></div>
+<div align='center'><a href="https://kinddragon.blogspot.com/" title="Stereo Driver OPEN STEREO"><b>Stereo Driver OPEN STEREO</b></a></div>
 
 Программа вышла в начале 2007 года и сразу же вызвала большой интерес у стереосообщества.
 Автор программы, Аркадий Шапкин, написал его для вывода игр в анаглифном стереоформате.
@@ -391,7 +391,7 @@ td {
 К сожалению, драйвер закончил своё развитие практически в самом начале, так как автора "забрали" в команду разработчиков iZ3D, где он и использовал свои знания и умения на благо уже iZ3D драйвера.
 Тем не менее информация об этой программе оставлена здесь для истории.
 
-<div align='center'><a href="http://www.tridef.com/ignition/overview.html" title="TriDef Ignition"><img src='/files/logos/tridef_logo.png' border='0' alt='TriDef Ignition стереодрайвер' /></a><b>TriDef Ignition</b></div>
+<div align='center'><a href="https://www.tridef.com/ignition/overview.html" title="TriDef Ignition"><img src='/files/logos/tridef_logo.png' border='0' alt='TriDef Ignition стереодрайвер' /></a><b>TriDef Ignition</b></div>
 
 В недавнем прошлом стереодрайвер этого разработчика продавался отдельно для каждой игры.
 Это была любопытная идея (ведь покупатель мог быть уверен в 100%-ой работоспособности стерео в игре при покупке),

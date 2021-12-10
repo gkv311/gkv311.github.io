@@ -23,7 +23,7 @@ _**sView**_ - это программа для просмотра изображ
 * [Зеркальные стереосистемы](/ru/help/devices/mirror) ("Двойной вывод" для промышленных и "Зеркальный вывод" для самодельных конструкций).
 * 2х-проекторные системы ("Двойной вывод").
 * Прототип Oculus Rift.
-* Устаревшее оборудование (мониторы <a href="http://www.iz3d.com">iZ3D</a>, Sharp, SeaReal, Vuzix HMD).
+* Устаревшее оборудование (мониторы <a href="https://www.iz3d.com">iZ3D</a>, Sharp, SeaReal, Vuzix HMD).
 
 ## Поддерживаемые стереоформаты
 
@@ -48,18 +48,18 @@ Linux (доступны пакеты для Ubuntu) и Mac OS X 10.6.8 и нов
 что установлены последние доступные драйвера для вашей видеокарты и системы.
 Обновления для десктопных карт доступны на сайтах производителей видеокарт:
 
-* [AMD/ATi](http://www.amd.com/en-us/markets/game/downloads) (RadeOn, FireGL).
-* [NVIDIA](http://www.nvidia.ru/Download/index.aspx?lang=ru) (GeForce, Quadro).
-* [Intel](http://downloadcenter.intel.com/default.aspx?lang=rus&iid=gg_work-RU+downloads) (встроенные видеокарты).
+* [AMD/ATi](https://www.amd.com/en-us/markets/game/downloads) (RadeOn, FireGL).
+* [NVIDIA](https://www.nvidia.ru/Download/index.aspx?lang=ru) (GeForce, Quadro).
+* [Intel](https://downloadcenter.intel.com/default.aspx?lang=rus&iid=gg_work-RU+downloads) (встроенные видеокарты).
 
 ## Обзоры программы
 
-* [Обзор sView на Total3D](http://total3d.ru/diy/111269).
-* [Обзор на LinuxNow.ru](http://linuxnow.ru/view.php?id=111).
+* [Обзор sView на Total3D](https://total3d.ru/diy/111269).
+* [Обзор на LinuxNow.ru](https://linuxnow.ru/view.php?id=111).
 
 ## Исходный код
 sView является программой с открытыми исходными текстами, доступными через [git репозитарий на github](https://github.com/gkv311/sview).
 На данный момент проект развивается силами одного единственного разработчика.
 Вы можете [помочь проекту](/ru/contribute) несколькими способами.
 
-Программа использует ряд сторонних библиотек, в том числе [FFmpeg](http://ffmpeg.org/) (LGPL) для загрузки аудио/видео.
+Программа использует ряд сторонних библиотек, в том числе [FFmpeg](https://ffmpeg.org/) (LGPL) для загрузки аудио/видео.

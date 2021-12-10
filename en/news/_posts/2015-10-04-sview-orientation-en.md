@@ -12,7 +12,7 @@ Main changes in new version:
 * Support reading cubemaps in format 3:2 (two rows per 3 quad sides, as on video [Star Wars on Facebook](https://www.facebook.com/StarWars/videos/1030579940326940/)).
 * Added button to activate 360 panorama view (from cubemap or spherical panorama videos and images) on toolbar.
 * Added Czech translation files (thanks to Marek Audy).
-* Added new demo image, prepared by Paul Eckhardt ([bricklightstudios.com](http://bricklightstudios.com/)).
+* Added new demo image, prepared by Paul Eckhardt ([bricklightstudios.com](https://bricklightstudios.com/)).
 * Add option to automatically workaround aspect ratio of anamorphic 1080p and 720p videos.
 * Implemented device orientation tracking within panorama mode on Android (requires precise sensors).
 * Improved handling of last opened file and settings storage on Android.

@@ -36,7 +36,7 @@ sView is able to determine stereoscopic format using:
   - `StereoscopicHalfHeight` and `StereoscopicHalfWidth` defining anamorphic video
   - `StereoscopicHorizontalParallax` defining parallax in pixels
 * MKV metadata (*.mkv, *mkv3d).
-  [Matroska specification](http://www.matroska.org/technical/specs/index.html) includes dedicated fields defining stereoscopic layout (`StereoMode`).
+  [Matroska specification](https://www.matroska.org/technical/specs/index.html) includes dedicated fields defining stereoscopic layout (`StereoMode`).
   FFmpeg library converts this data in form of stream metadata with name `STEREO_MODE`
   (with values `mono`, `right_left`, `left_right`, `bottom_top`, `top_bottom`, `row_interleaved_rl`, `row_interleaved_lr`, `block_lr`, `block_rl`, `anaglyph_cyan_red`, `anaglyph_green_magenta`).
   Note that detection code in sView is generalized and specified metadata tags will be read from any video file (not only *.mkv).
