@@ -67,7 +67,7 @@ hr {
   <td></td>
   <td width='80p' align='center'><a title="Windows"  href="javascript:void(0);" onclick="switchTo('downloadWin');"><div><img src="/files/logos/logo_win.png" /><br/>Windows</div></a></td>
   <td width='80p' align='center'><a title="Linux"    href="javascript:void(0);" onclick="switchTo('downloadLin');"><div><img src="/files/logos/logo_lin.png" /><br/>Linux</div></a></td>
-  <td width='80p' align='center'><a title="Mac OS X" href="javascript:void(0);" onclick="switchTo('downloadMac');"><div><img src="/files/logos/logo_mac.png" /><br/>Mac OS X</div></a></td>
+  <td width='80p' align='center'><a title="macOS"    href="javascript:void(0);" onclick="switchTo('downloadMac');"><div><img src="/files/logos/logo_mac.png" /><br/>macOS</div></a></td>
   <td width='80p' align='center'><a title="Android"  href="javascript:void(0);" onclick="switchTo('downloadApk');"><div><img src="/files/logos/logo_android.png" /><br/>Android</div></a></td>
   </tr>
 </table>
@@ -83,7 +83,7 @@ hr {
 
   <div class="btn-download-wrapper">
     <a class='btn btn-success btn-lg' href='https://launchpad.net/~sview/+archive/stable'><img src="/files/logos/logo_launchpad.png" />Ubuntu<br/><small>PPA-repository</small></a>
-    <a class='btn btn-success btn-lg' href='{{ site.sview_download }}/src/{{ site.sview_src_tgz }}'>Sources<br/><small>{{ site.sview_src_tgz }}</small></a>
+    <a class='btn btn-success btn-lg' href='https://github.com/gkv311/sview'>Sources<br/><small>{{ site.sview_src_tgz }}</small></a>
   </div>
 
   <h3>sView for Debian-based Linux distributions</h3>
@@ -97,7 +97,6 @@ hr {
   <p><code>sView media_file_name</code></p>
 
   <h3>Other systems:</h3>
-  <p>Sources archive: <a href='{{ site.sview_download_src }}'>Download</a></p>
   <p>GIT repository on github: <a href='https://github.com/gkv311/sview'>github.com/gkv311/sview</a></p>
   <p>Please <a href="/en/about">contact me</a> if you want to maintain package(s) for other Linux distributions.</p>
 
@@ -110,8 +109,8 @@ hr {
     <p class='noindent'>~13 MiB, x86_64, {{ site.sview_build_date_mac }}<br/>for <b>macOS</b> 10.10+ (Yosemite and newer)</p>
   </div>
 
-  <h3>Extra info for OS X users</h3>
-  <p>sView has no digital signature and requires additional installation steps on OS X where unsigned applications are blocked by default.
+  <h3>Extra info for macOS users</h3>
+  <p>sView has no digital signature and requires additional installation steps on macOS where unsigned applications are blocked by default.
   There is no need lowering security level system-wide to launch sView!
   Instead, an exception for specific application could be added:</p>
   <ul class='indent'>
