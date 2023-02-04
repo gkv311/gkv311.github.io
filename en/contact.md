@@ -6,8 +6,9 @@ permalink: /en/about/
 ---
 
 *Kirill Gavrilov Tartynskih* is the Russian programmer who created sView project.
-He's a native of Kirishi, and is currently employed by [Open Cascade](https://opencascade.com), Nizhny Novgorod (as Software Architect).
-As employee of Open Cascade, he participates in development of [Open CASCADE Technology](https://dev.opencascade.org) platform (responsible for 3D Visualization domain),
+He's a native of Kirishi, and is currently employed as Principal Engineer.
+
+As ex-employee of Open Cascade, he participated in development of [Open CASCADE Technology](https://dev.opencascade.org) platform (responsible for 3D Visualization domain),
 3D Viewer and converter for 3D models [CAD Assistant](https://dev.opencascade.org/project/cad-assistant),
 as well as in other projects.
 

@@ -38,13 +38,13 @@ exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffe
 excerpt_separator: <!--break-->
 
 sview_download:  "https://download.sview.ru"
-sview_version_win:    "22.01"
+sview_version_win:    "22.03"
 sview_version_mac:    "20.08"
 sview_version_apk:    "20.08"
-sview_build_date_win: "2022-01-16"
+sview_build_date_win: "2023-02-04"
 sview_build_date_mac: "2020-08-19"
 sview_build_date_apk: "2020-08-02"
-sview_win_exe:        "sViewSetup_v.22.01_16.exe"
+sview_win_exe:        "sViewSetup_v.23.02_4.exe"
 sview_win_ovr_exe:    "sViewSetup_v.15.11alpha15_OVR.exe"
 sview_mac_dmg:        "sViewSetup_v.20.08_19.dmg"
 sview_apk_apk32:      "sViewSetup_v.20.08_02-1_armeabi_v7a.apk"
